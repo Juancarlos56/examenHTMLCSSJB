@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.encabezado {
+    padding: 3%;
+    width: 94%;
+    height: 35px;
+    float: left;
+    background-color: #303e4f;
+}
+
+.encabezado .logo {
+    width: 45%;
+    height: 100%;
+    float: left;
+}
+
+.encabezado .logo .imagen {
+    width: 70%;
+    height: 100%;
+    float: left;
+    
+}
+
+.encabezado .menu{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+.encabezado .menu ul{
+    padding: 20px;
+    float: right;
+}
+
+.encabezado .menu li{
+    display: inline;
+    padding: 10px;
+    background-color: #b24334;
+    color: white;
+}
+
+
+
+.encabezado .menu {
+    width: 60%;
+    height: 100%;
+}
+
+
+
+.separador {
+    width: 100%;
+    height: 10px;
+    background-color: burlywood;
+    clear: both;
+    
+}
+
+.columna1 {
+    width: 40%;
+    height: 100px;
+    float: left;
+    background-color: white;
+    margin-left: 2%;
+    margin-right: 15%;
+}
+
+.columna2 .texto{
+    width: 100%;
+    height: 90px;
+    float: left;
+    padding: 20px;
+    background-color: #fa9213;
+    margin-left: 2%;
+    margin-right: 15%;
+}
+
+.columna2 {
+    width: 40%;
+    height: 300px;
+    float: left;
+    background-color: #d9923b;
+    padding: 10px;
+}
+
+.linea {
+    border-top: 1px solid black;
+    height: 2px;
+    max-width: 60%;
+    padding: 0;
+    clear: both;
+}
+
+.pie {
+    width: 100%;
+    height: 200px;
+    background-color: gray;
+    clear: both;
+    
+}
